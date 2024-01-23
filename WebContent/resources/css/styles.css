@@ -1,0 +1,76 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+} */
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+body {
+    background-color: #0d838a;
+}
+
+.myeffect:hover {
+    /* border: 10px solid #0d838a; */
+    /* border-width: 10px; */
+    /* border: 10px transparent; */
+    /* border-color: transparent; */
+    /* border-radius: 20px; */
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.myeffect:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+
+.llogo {
+    width: auto;
+}
+
+/* .shtext {
+    text-shadow: 2px 2px 0px black;
+} */
+
+.shadow { 
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.8);
+    /* border-radius: 20px; */
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.myfont {
+    font-family: Oxygen, Helvetica, sans-serif;
+    /* font-size: 500px; */
+}
+
+.fixheight {
+    min-height: 430px;
+}
+
+footer {
+  position: absolute;
+  padding-top: 30px;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+.formcentral {
+  max-width: 500px; /* Ajuste conforme necessário */
+  width: 100%;
+  margin: auto;
+}
+
+.centertext {
+        text-align: center;
+}
